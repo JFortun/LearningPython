@@ -1,4 +1,4 @@
-#Variables
+# Variables
 
 name = "Antonio"
 age = 20
@@ -8,7 +8,7 @@ message = """ This is
 a message"""
 print("The cat is " + color1)
 
-#Operators
+# Operators
 
 print(number1 + number2)
 print(number1 - number2)

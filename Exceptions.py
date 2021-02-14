@@ -1,5 +1,6 @@
 import math
 
+
 def sum(number1, number2):
     return number1 + number2
 
@@ -54,7 +55,9 @@ def division2():
     finally:
         print("Finished")
 
+
 division2()
+
 
 def evalueAge(age):
     if age < 0 or age > 100:
@@ -68,14 +71,17 @@ def evalueAge(age):
         return "You are mature"
     elif age < 100:
         return "You are old"
-    
+
+
 print(evalueAge(101))
+
 
 def calculateRoot(number1):
     if number1 < 0:
         raise ValueError("The number can't be negative")
     else:
         return math.sqrt(number1)
+
 
 try:
     print(calculateRoot(-144))

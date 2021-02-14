@@ -1,6 +1,7 @@
 print("Write your grade in the exam")
 grade = input()
 
+
 def evaluation(grade):
     rating = ""
     if 0 < grade < 5:
@@ -13,7 +14,8 @@ def evaluation(grade):
         rating = "Approved"
     return rating
 
-print("Your evaluation is: " + evaluation(int(grade))) #int() to convert sring to int
+
+print("Your evaluation is: " + evaluation(int(grade)))  # int() to convert sring to int
 
 print("Student grants 2020")
 

@@ -15,17 +15,17 @@ for i in range(3):
 for i in range(3):
     print(f"Value {i}")
 
-for i in range(5, 10): #From 5 to 10
+for i in range(5, 10):  # From 5 to 10
     print(f"Value {i}")
 
-for i in range(5, 10, 2): #From 5 to 10 and in pairs
+for i in range(5, 10, 2):  # From 5 to 10 and in pairs
     print(f"Value {i}")
 
 counter = 0
 email = input("Inset your email address ")
 
 for i in email:
-    
+
     if (i == "@" or i == "."):
         counter = counter + 1
 
@@ -71,6 +71,6 @@ for i in name:
 
 print(str(counter) + " characters without spaces")
 
-class MyClass:
-    pass # Sets null value
 
+class MyClass:
+    pass  # Sets null value
